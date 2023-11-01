@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import React from 'react';
-import Navbar1 from './Navbar';
+import Navbar from './NavBar';
 import Card from './Card';
 
 function App() {

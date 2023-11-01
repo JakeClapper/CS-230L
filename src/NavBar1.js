@@ -12,4 +12,4 @@ function Navbar() {
   );
 }
 
-export default Navbar1;
+export default Navbar;

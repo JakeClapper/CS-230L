@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 import React from 'react';
-import Navbar from './NavBar';
-import Card from './Card';
+import Navbar from './NavBar.js';
+import Card from './Card.js';
 
 function App() {
   return (
@@ -15,10 +15,11 @@ function App() {
       <p> Hi Im Jake</p>
 
       
-      <div className="card-container">
-        <Card /> <Card/> <Card/>
+      
+        <Card />
         
-      </div>
+        
+      
       
       
     </div>

@@ -1,32 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter,Routes,Route} from "react-router-dom"
 
+import Home from './Home.js';
 import React from 'react';
 import Navbar from './NavBar.js';
 import Card from './Card.js';
+import Contact from './Contact.html';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <h1>CS 230L</h1>
-      <h2>Section -003</h2>
-      <p>WVU ID: 800387090</p>
-      <p> Hi Im Jake</p>
-
+    <div className ="App">
+  <BrowserRouter>
+    <Navbar />
+    <Routes>
       
-      
-        <Card />
+        <Route path="/" element={<Home />} />
+        <Route path="/card" element={<Card />} />
+        <Route path="/contact" element={<Contact />} />
         
-        
-      
-      
-      
-    </div>
+    </Routes>
+  </BrowserRouter>
+</div>
   );
-  
-   
-  
 }
+
 
 export default App;

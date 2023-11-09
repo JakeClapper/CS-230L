@@ -8,7 +8,7 @@ import Navbar from './NavBar.js';
 import Card from './Card.js';
 import Contact from './Contact.html';
 
-export default function App() {
+function App() {
   return (
     <div className ="App">
   <BrowserRouter>

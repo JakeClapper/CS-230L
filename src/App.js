@@ -6,7 +6,7 @@ import Home from './Home.js';
 import React from 'react';
 import Navbar from './NavBar.js';
 import Card from './Card.js';
-import Contact from './Contact.html';
+import Contact from './Contact.js';
 
 function App() {
   return (
